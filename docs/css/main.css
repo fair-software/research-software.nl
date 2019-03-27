@@ -1,0 +1,128 @@
+body {
+  font: 15px/1.5 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/*Global*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.content {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background: #dbe3e2;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 150px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+header {
+  background: #dbe3e2;
+  color: #000000;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #1f95a2 3px solid;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+header #logo {
+  float: left;
+}
+header #logo h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+/*Collapsible Section*/
+details {
+  transition: height 1s ease-out;
+  height: 10%;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #fff;
+  background: #1f95a2;
+  margin-bottom: 10px;
+}
+
+.primary {
+  background-color: #1f95a2;
+}
+.secondary {
+  background-color: #29a28a;
+}
+summary {
+  padding: 10px;
+  cursor: pointer;
+}
+summary:focus {
+  outline: none;
+}
+details[open] {
+  height: 100%;
+}
+.info {
+  padding: 0 10px 10px;
+}
+
+details[open] .info {
+  animation-name: invisiblyGrowFontSize, fadeIn;
+  animation-duration: 500ms, 200ms;
+  animation-delay: 0ms, 500ms;
+}
+
+details summary::-webkit-details-marker {
+  padding-top: 5px;
+  color: #fff;
+  float: right;
+}
+/*Otions*/
+.options span {
+  padding: 0 10px;
+  border-right: 1px solid;
+}
+
+/*Animations*/
+@keyframes invisiblyGrowFontSize {
+  0% {
+    font-size: 0;
+    opacity: 0;
+  }
+  100% {
+    font-size: 1em;
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
