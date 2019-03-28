@@ -59,9 +59,9 @@ header nav {
   margin-top: 10px;
 }
 /*Collapsible Section*/
-details {
+.details {
   transition: height 1s ease-out;
-  height: 10%;
+
   border-radius: 8px;
   font-size: 15px;
   font-family: 'roboto';
@@ -70,33 +70,28 @@ details {
   margin-bottom: 10px;
 }
 
-.primary {
-  background-color: #1f95a2;
-}
 .secondary {
   background-color: #29a28a;
 }
-summary {
+.details summary {
   padding: 10px;
   cursor: pointer;
 }
-summary:focus {
+.details summary:focus {
   outline: none;
 }
-details[open] {
-  height: 100%;
-}
+
 .info {
   padding: 0 10px 10px;
 }
 
-details[open] .info {
+.details[open] .info {
   animation-name: invisiblyGrowFontSize, fadeIn;
   animation-duration: 500ms, 200ms;
   animation-delay: 0ms, 500ms;
 }
 
-details summary::-webkit-details-marker {
+.details summary::-webkit-details-marker {
   padding-top: 5px;
   color: #fff;
   float: right;
