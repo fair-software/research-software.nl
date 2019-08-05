@@ -29,16 +29,16 @@ domein
 - https://swmath.org (mathematics)
 
 
-https://hepsoftware.org
-https://www.ecmwf.int/en/computing/software
-https://software.nasa.gov/
-https://hubzero.org/sites
+- https://hepsoftware.org
+- https://www.ecmwf.int/en/computing/software
+- https://software.nasa.gov/
+- https://hubzero.org/sites
    - subsites
-https://software.pan-data.eu/
-https://appdb.egi.eu/
-https://software.process-project.eu
-https://catalogue.eosc-portal.eu/search;query=
-https://www.darpa.mil/opencatalog
-https://codeocean.com/explore/capsules
-https://www.compbiomed.eu/services/software-hub/
-https://switchboard.clarin.eu/#
+- https://software.pan-data.eu/
+- https://appdb.egi.eu/
+- https://software.process-project.eu
+- https://catalogue.eosc-portal.eu/search;query=
+- https://www.darpa.mil/opencatalog
+- https://codeocean.com/explore/capsules
+- https://www.compbiomed.eu/services/software-hub/
+- https://switchboard.clarin.eu/#
